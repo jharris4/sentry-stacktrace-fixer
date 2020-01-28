@@ -1,0 +1,25 @@
+{
+  "name": "sentry-stacktrace-fixer",
+  "version": "1.0.0",
+  "description": "fixes sourcemap stacktrace filenames for sentry events on the client side",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "repository": "https://github.com/jharris4/sentry-stacktrace-fixer.git",
+  "author": "jharris4",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "src",
+    "lib",
+    "es"
+  ],
+  "devDependencies": {
+    "@porterjs/lib": "^2.0.5"
+  },
+  "scripts": {
+    "build": "porter-babel"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.8.3"
+  }
+}
